@@ -1,0 +1,107 @@
+
+			/*.xq {
+				text-decoration:underline
+			}*/
+			.xq:hover {
+				color: #B0CEF0;
+			}
+			.genju a {
+				line-height: 26px;
+				text-decoration: none;
+				color: #000000;
+			}
+			
+			.genju a:hover {
+				color: red;
+			}
+			
+			.dazi {
+				color: #F3F3F3;
+				position: absolute;
+				top: 180px;
+				left: 380px;
+				text-indent: 35px;
+			}
+			
+			.more {
+				color: #2a2c3e;
+				font-size: 14px;
+				position: absolute;
+				top: 280px;
+				left: 420px;
+				text-align: center;
+			}
+			
+			.xiaozi {
+				color: #CCCCCC;
+				font-size: 14px;
+				position: absolute;
+				top: 220px;
+				left: 330px;
+				text-align: center;
+			}
+			
+			.jieshao {
+				padding-left: 150px;
+			}
+			
+			.zhiliang {
+				/*list-style-type: none;*/
+				/*margin: 50px;*/
+				padding-left: 630px;
+				padding-top: 60px;
+				padding-bottom: 20px;
+				/*overflow: hidden;*/
+			}
+			
+			.biao {
+				/*list-style-type: none;*/
+				margin: 50px;
+				padding-left: 150px;
+			}
+			
+			.body {
+				background-color: #b0c4de;
+			}
+			
+			.logo {
+				margin: 0px 150px;
+			}
+			
+			.banner {
+				display: block;
+				margin: 0px;
+			}
+			
+			ul {
+				width: 96.3%;
+				list-style-type: none;
+				margin: 10px 0px 0px 0px;
+				padding-left: 150px;
+				/*padding-right: 150px;*/
+				overflow: hidden;
+				box-shadow: #e2e2e2 0px 0px 10px;
+				background: #ffffff;
+			}
+			
+			li {
+				float: left;
+				border-right: 1px solid #e4e4e4;
+				padding: 14px 16px;
+			}
+			
+			li:last-child {
+				border-right: none;
+			}
+			
+			li a {
+				display: block;
+				color: #666;
+				text-align: center;
+				/*padding: 14px 16px;*/
+				text-decoration: none;
+			}
+			
+			li a:hover:not(.active) {
+				background-color: #b0cef0;
+			}
